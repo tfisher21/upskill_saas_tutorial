@@ -17,10 +17,12 @@
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 
+//Typography Styles
 h1, h2, h3 {
   font-family: 'Open Sans', sans-serif;
 }
 
+//Gradient Background
 .navbar, .home-callout {
   //Gradient "Nighthawk" provided by https://twitter.com/_ighosh at uiGradients.com
   background: #2980b9;  /* fallback for old browsers */
@@ -31,28 +33,22 @@ h1, h2, h3 {
   background: linear-gradient(to right, #2c3e50, #2980b9);  /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
 }
 
+//Nav Styles
 .navbar {
   border: none;
 }
 
-.navbar-default .navbar-brand {
-  color: white;
-}
-
-.navbar-default .navbar-brand:hover {
-  color: white;
-  opacity: 0.75;
-}
-
+.navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a {
   color: white;
-}
-
-.navbar-default .navbar-nav > li > a:hover {
+  
+  &:hover {
   color: white;
-  opacity: 0.75;
+  opacity: 0.75;  
+  }
 }
 
+//Homepage Styles
 .home-callout {
   margin-top: -20px;
   padding-top: 50px;
