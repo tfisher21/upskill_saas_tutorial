@@ -6,7 +6,7 @@ Memberships:
 
 ------------------
 
-Stripe Integration
+Stripe Integration:
 - Users should have a stripe customer token in the users table.					-inc-
 - Javascript should prevent Pro form from submitting, when user fills
 it out, and should send card info to Stripe. Stripe will return with
