@@ -16,10 +16,10 @@ $(document).on('turbolinks:load', function(){
 		submitBtn.val('Processing').prop('disabled', true);
 	
 		// Collect the credit card fields.
-		var ccNum = $('#card_number'.val()),
-				cvcNum = $('#card_code'.val()),
-				expMonth = $('#card_month'.val()),
-				expYear = $('#card_year'.val());
+		var ccNum = $('#card_number').val(),
+				cvcNum = $('#card_code').val(),
+				expMonth = $('#card_month').val(),
+				expYear = $('#card_year').val();
 		
 		// Use Stripe js libary to check for card errors
 		var error = false;
