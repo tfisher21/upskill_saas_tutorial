@@ -7,7 +7,7 @@ Memberships:
 ------------------
 
 Stripe Integration:
-- Users should have a stripe customer token in the users table.					-inp-
+- Users should have a stripe customer token in the users table.					-done-
 - Javascript should prevent Pro form from submitting, after user fills
 it out, and should send card info to Stripe. Stripe will return with
 a card token.																														-done-
@@ -18,3 +18,12 @@ plan 1 or plan 2.																												-done-
 card token to Stripe server and Stripe will create a subscription and
 send back customer token. Rails should save customer token and user
 information to our database.																						-done-
+
+--------------
+
+User Profiles:
+- Each user should have one profile.																		-done-
+- User should see a link to new profile form upon signing up.						-ns-
+- User should be able to create and view their user profile.						-ns-
+- User profile should have a profile picture.														-ns-
+- User should be able to view all user profiles.												-ns-
