@@ -25,5 +25,5 @@ User Profiles:
 - Each user should have one profile.																		-done-
 - User should see a link to new profile form upon signing up.						-done-
 - User should be able to create and view their user profile.						-done-
-- User profile should have a profile picture.														-inp-
-- User should be able to view all user profiles.												-ns-
+- User profile should have a profile picture.														-done-
+- User should be able to view all user profiles.												-done-
